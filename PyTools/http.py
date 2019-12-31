@@ -22,7 +22,7 @@ class UriTool():
     @staticmethod
     def url_query_replace(url:str,key:str,val:str,encoding='utf-8') -> str:
         """
-        替换某个参数值
+        替换某个参数值 
         """
         start_uri = parse.urlparse(url)
         key = str(key)
